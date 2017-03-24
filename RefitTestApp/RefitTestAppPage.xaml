@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:RefitTestApp" x:Class="RefitTestApp.RefitTestAppPage">
+	<StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label x:Name="ResultLabel" Text="Wait for it..."  />
+        <Button Text="Do request the old way (laaame)!" Clicked="Handle_Clicked" />
+        <Button Text="Do request with Refit!" Clicked="Handle_Clicked_Awesome" />
+        <Button Text="Get me post 3" Clicked="Handle_Clicked_Awesome_3" />
+		<Button Text="Add a post" Clicked="Handle_Clicked_Awesome_Post" />
+    </StackLayout>
+</ContentPage>
